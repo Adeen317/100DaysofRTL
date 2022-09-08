@@ -1,0 +1,28 @@
+// A simple ALU
+
+module day4 (
+  input     logic [7:0]   a_i,
+  input     logic [7:0]   b_i,
+  input     logic [2:0]   op_i,
+
+  output    logic [7:0]   alu_o
+);
+
+  // Enum for ALU op
+  localparam  OP_ADD = 3'b000;
+  localparam  OP_SUB = 3'b001;
+  localparam  OP_SLL = 3'b010;
+  localparam  OP_SRL = 3'b011;
+  localparam  OP_AND = 3'b100;
+  localparam  OP_OR  = 3'b101;
+  localparam  OP_XOR = 3'b110;
+
+
+  logic a=0;
+
+  always_comb begin
+    alu_o=(op_i==OP_ADD)?a_i+ b_i:(op_i==OP_SUB)?a_i-b_i:(op_i==OP_SLL)?a_i[7:0]<<b_i[2:0]:(op_i==OP_SRL)?a_i[7:0]>>b_i[2:0]:(op_i==OP_AND)?a_i[7:0]&b_i[7:0]:(op_i==OP_OR)?a_i | b_i:(op_i==OP_XOR)?a_i ^ b_i:a;
+    
+  end
+
+endmodule
