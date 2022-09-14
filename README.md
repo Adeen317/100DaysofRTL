@@ -1,5 +1,5 @@
 # 100DaysofRTL
 100 Days of RTL
-![image](blob:https://web.whatsapp.com/f3c1df86-9ae5-4335-8013-48c3509592b7)
+![image](https://www.chipverify.com/images/verilog/waves/shift_reg_wave.png)
 ## Toolchain:
 * [EDA Playground](https://www.edaplayground.com) for Simulation & Synthesis.
