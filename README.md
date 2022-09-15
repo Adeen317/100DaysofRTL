@@ -32,4 +32,4 @@ Binary to Gray Code
 
 ## Toolchain:
 * [EDA Playground](https://www.edaplayground.com) for Simulation & Synthesis.
-* [Icarus Verilog](http://iverilog.icarus.com/) for (offline) Simulation & Synthesis.
+* [Icarus Verilog](https://bleyer.org/icarus/) for (offline) Simulation & Synthesis.
