@@ -1,6 +1,6 @@
 # 100DaysofRTL
 ## System-Verilog
-![image](https://drive.google.com/file/d/1XG-LjGyAlLzuulj_szC-lmOpedANjPum/view?usp=sharing)
+![System-verilog](https://user-images.githubusercontent.com/112985225/190377504-803f3901-8f43-4893-a413-c50dda9491b3.PNG)
 
 ![image](https://www.chipverify.com/images/verilog/waves/shift_reg_wave.png)
 
