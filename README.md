@@ -1,7 +1,7 @@
 # 100DaysofRTL
 ## System-Verilog
 
-![image](https://cdn.hackaday.io/images/8827651530637842926.png)
+![image](https://cdn.hackaday.io/images/8827651530637842926.png](https://www.edaplayground.com/img/Playground-screenshot.png)
 
 ## Instructed By:
 - [Syeda Rafia](https://github.com/syedarafia13)
