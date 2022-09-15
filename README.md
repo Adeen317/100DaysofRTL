@@ -8,7 +8,7 @@
 - [Nameer Iqbal](https://github.com/Nameer-Iqbal-Ansari)
 - [Abdul Muheet ](https://github.com/Abdul-muheet-ghani)
 
-### Implementation/Designing:
+## Implementation/Designing:
 
 #### Day 1
 Mux
