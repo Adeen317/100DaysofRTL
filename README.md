@@ -1,7 +1,7 @@
 # 100DaysofRTL
 ## System-Verilog
 
-![image](https://www.youtube.com/watch?v=odjQVpN4aF0)
+![image](https://cdn.hackaday.io/images/8827651530637842926.png)
 
 ## Instructed By:
 - [Syeda Rafia](https://github.com/syedarafia13)
