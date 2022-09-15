@@ -5,7 +5,6 @@
 ## Instructed By:
 - [Syeda Rafia](https://github.com/syedarafia13)
 - [Nameer Iqbal](https://github.com/Nameer-Iqbal-Ansari)
-- [Muheet ](https://github.com/Abdul-muheet-ghani)
-- 
+- [Abdul Muheet ](https://github.com/Abdul-muheet-ghani)
 ## Toolchain:
 * [EDA Playground](https://www.edaplayground.com) for Simulation & Synthesis.
