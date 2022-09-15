@@ -1,5 +1,6 @@
 # 100DaysofRTL
 ## System-Verilog
+SystemVerilog language is used to model, design, simulate, test and implement electronic system. It is the most preferred language for the IP & Sub-system verification that demands constrained random verification. Also, it's an IEEE standard Hardware Design and Verification Language [HDVL] which can be used for both the RTL design and verification.
 
 ![image](https://www.edaplayground.com/img/Playground-screenshot.png)
 
