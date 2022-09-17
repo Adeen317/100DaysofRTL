@@ -29,6 +29,8 @@ Linear Feedback Shift Register
 Binary to Hot
 #### Day 9
 Binary to Gray Code
+#### Day 10
+Counter with Load
 
 ## Toolchain:
 * [EDA Playground](https://www.edaplayground.com) for Simulation & Synthesis.
