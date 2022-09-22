@@ -1,21 +1,20 @@
 // A simple ALU
-
+typedef logic [2:0] define_type;
 module day4 (
   input     logic [7:0]   a_i,
   input     logic [7:0]   b_i,
-  input     logic [2:0]   op_i,
+  define_type   op_i,
 
   output    logic [7:0]   alu_o
 );
 
-  // Enum for ALU op
-  localparam  OP_ADD = 3'b000;
-  localparam  OP_SUB = 3'b001;
-  localparam  OP_SLL = 3'b010;
-  localparam  OP_SRL = 3'b011;
-  localparam  OP_AND = 3'b100;
-  localparam  OP_OR  = 3'b101;
-  localparam  OP_XOR = 3'b110;
+  define_type  OP_ADD = 0;
+  define_type  OP_SUB = 1;
+  define_type  OP_SLL = 2;
+  define_type  OP_SRL = 3;
+  define_type  OP_AND = 4;
+  define_type  OP_OR  = 5;
+  define_type  OP_XOR = 6;
 
 
   logic a=0;
