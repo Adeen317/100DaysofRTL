@@ -19,8 +19,13 @@ module day4 (
 
   logic a=0;
 
+  function void print();
+    $display("The Value of result =",alu_o);
+  endfunction
+  
   always_comb begin
     alu_o=(op_i==OP_ADD)?a_i+ b_i:(op_i==OP_SUB)?a_i-b_i:(op_i==OP_SLL)?a_i[7:0]<<b_i[2:0]:(op_i==OP_SRL)?a_i[7:0]>>b_i[2:0]:(op_i==OP_AND)?a_i[7:0]&b_i[7:0]:(op_i==OP_OR)?a_i | b_i:(op_i==OP_XOR)?a_i ^ b_i:a;
+    print();
     
   end
 
