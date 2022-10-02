@@ -5,8 +5,8 @@ module day12_tb ();
 
   reg      clk;
   reg      reset;
-  reg      x_i;
-  wire     det_o;
+  reg      x_in;
+  wire     det_out;
 
   day12 DAY12 (.*);
 
@@ -21,12 +21,12 @@ module day12_tb ();
 
   initial begin
     reset <= 1'b1;
-    x_i <= 1'b1;
+    x_in <= 1'b1;
     @(posedge clk);
     reset <= 1'b0;
     @(posedge clk);
     for (integer i=0; i<=14; i=i+1) begin
-      x_i <= seq[i];
+      x_in <= seq[i];
       @(posedge clk);
     end
     $finish();
