@@ -2,9 +2,9 @@
 module day12 (
   input    clk,
   input    reset,
-  input    x_i,
+  input    x_in,
 
-  output   det_o
+  output   det_out
 );
 
   // Use a shift register to sample the serial input
@@ -17,8 +17,8 @@ module day12 (
     else
       shift_ff <= nxt_shift;
 
-  assign nxt_shift = {shift_ff[10:0], x_i};
+  assign nxt_shift = {shift_ff[10:0], x_in};
 
-  assign det_o = (shift_ff[11:0] == 12'b1110_1101_1011);
+  assign det_out = (shift_ff[11:0] == 12'b1110_1101_1011);
 
 endmodule
