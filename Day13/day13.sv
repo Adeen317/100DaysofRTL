@@ -1,14 +1,14 @@
 // Various ways to implement a mux
 
 module day13 (
-  input     wire[3:0] a_i,
-  input     wire[3:0] sel_i,
+  input [3:0] a_i,
+  input [3:0] sel_i,
 
-  output    wire     ternary_out,
-  output    logic     case_o,
-  output    logic     ifelse_o,
-  output    logic     loop_o,
-  output    logic     and_or_o
+  output logic ternary_out,
+  output logic case_o,
+  output logic ifelse_o,
+  output logic loop_o,
+  output logic and_or_o
 );
 
   // Ternary operator
