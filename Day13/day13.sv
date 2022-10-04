@@ -7,7 +7,6 @@ module day13 (
   output logic ternary_out,
   output logic case_o,
   output logic ifelse_o,
-  output logic loop_o,
   output logic and_or_o
 );
 
