@@ -33,6 +33,12 @@ SystemVerilog language is used to model, design, simulate, test and implement el
 * [Counter with Load](Day10)
 #### Day 11
 * [Parallel to Serial with Valid & Empty](Day11)
+#### Day 12
+* [Detecting a big sequence](Day12)
+#### Day 13
+* [A](Day13)
+#### Day 14
+* [Priority Arbitor](Day14)
 
 ## Toolchain:
 * [EDA Playground](https://www.edaplayground.com) for Simulation & Synthesis.
