@@ -12,7 +12,7 @@ SystemVerilog language is used to model, design, simulate, test and implement el
 ## Implementation/Designing:
 
 #### Day 1
-Mux
+* [Multiplexor](Day1.sv)
 #### Day 2
 D-FlipFlop
 #### Day 3
