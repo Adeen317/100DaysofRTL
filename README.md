@@ -36,7 +36,7 @@ SystemVerilog language is used to model, design, simulate, test and implement el
 #### Day 12
 * [Detecting a big sequence](Day12)
 #### Day 13
-* [A](Day13)
+* [Various ways to implement a mux](Day13)
 #### Day 14
 * [Priority Arbitor](Day14)
 
