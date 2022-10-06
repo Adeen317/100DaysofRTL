@@ -39,6 +39,8 @@ SystemVerilog language is used to model, design, simulate, test and implement el
 * [Various ways to implement a mux](Day13)
 #### Day 14
 * [Priority Arbiter](Day14)
+#### Day 15
+
 
 ## Toolchain:
 * [EDA Playground](https://www.edaplayground.com) for Simulation & Synthesis.
