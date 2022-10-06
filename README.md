@@ -31,6 +31,8 @@ SystemVerilog language is used to model, design, simulate, test and implement el
 * [Binary to Gray Code](Day9)
 #### Day 10
 * [Counter with Load](Day10)
+#### Day 11
+* [Parallel to Serial with Valid & Empty](Day11)
 
 ## Toolchain:
 * [EDA Playground](https://www.edaplayground.com) for Simulation & Synthesis.
