@@ -7,7 +7,6 @@ module day14 #(
   input  [bits-1:0] req_in,
   output [bits-1:0] grant_out
 );
-  // Port[0] has highest priority
   assign grant_out[0] = req_in[0];
 
   genvar i;
