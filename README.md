@@ -14,23 +14,23 @@ SystemVerilog language is used to model, design, simulate, test and implement el
 #### Day 1
 * [Multiplexor](Day1)
 #### Day 2
-D-FlipFlop
+* [D-FlipFlop](Day2)
 #### Day 3
-Edge Trigger
+* [Edge Trigger](Day3)
 #### Day 4
-ALU
+* [ALU](Day4)
 #### Day 5
-Odd Counter
+* [Odd Counter](Day5)
 #### Day 6
-Simple Shift Register
+* [Simple Shift Register](Day6)
 #### Day 7
-Linear Feedback Shift Register
+* [Linear Feedback Shift Register](Day7)
 #### Day 8
-Binary to Hot
+* [Binary to Hot](Day8)
 #### Day 9
-Binary to Gray Code
+* [Binary to Gray Code](Day9)
 #### Day 10
-Counter with Load
+* [Counter with Load](Day10)
 
 ## Toolchain:
 * [EDA Playground](https://www.edaplayground.com) for Simulation & Synthesis.
